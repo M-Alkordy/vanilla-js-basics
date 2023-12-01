@@ -323,11 +323,11 @@ for (let index = num; index >= 1; index--) {
 
 console.log(result) */
 
-let arr = [4 , 5 , 6 , 3 , 2] /* arr[i]=2 arr[j]= 3 
+/* let arr = [4 , 5 , 6 , 3 , 2] */ /* arr[i]=2 arr[j]= 3 
  arr[j]=2 arr[i]=2
   arr[j]=2 arr[i]=2*/
 
-for (let i= 0 ; i < arr.length-1 ; i++ ){
+/* for (let i= 0 ; i < arr.length-1 ; i++ ){
     for(let j=i+1 ; j <arr.length ; j++){
         if(arr[i] < arr[j]){
             let x = arr[j]
@@ -337,7 +337,7 @@ for (let i= 0 ; i < arr.length-1 ; i++ ){
     }
 }
 
-console.log(arr)
+console.log(arr) */
 
 /* i=1 j=0 arr[i]=5 arr[j]=4 */
 /* i=2 j=0->1 
@@ -355,3 +355,24 @@ arr[4]=3 arr[1]=4  [2 , 3 , 5 , 6 , 4]
 arr[4]=4 arr[2]=5  [2 , 3 , 4 , 6 , 5]
 arr[4]=5 arr[3]=6  [2 , 3 , 4 , 5 , 6]*/
 
+let user = {
+    name : "mohammed alkordy",
+    age : 24,
+    email : "test@gmail.com"
+}
+
+console.log(user.name)
+
+
+let json = [{
+    name : "mohammed alkordy",
+    age : 24,
+    email : "test@gmail.com",
+},{
+    name : "Ali",
+    age : 30,
+    email : "test2@gmail.com"
+}]
+
+
+console.log(json[1].name)
